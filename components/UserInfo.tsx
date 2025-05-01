@@ -9,7 +9,7 @@ const StyledContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f0f2f5;
+    background-color: white;
     width: 30%;
 
     border-radius: 8%;
@@ -20,7 +20,7 @@ const StyledCard = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    background: white;
+    background: var(--color-blue-300);
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);

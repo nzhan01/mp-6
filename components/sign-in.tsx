@@ -14,13 +14,13 @@ const StyledContainer = styled.div`
     font-weight: bold;
 `
 
-
+//converted from tailwind
 const StyledButton = styled.button`
 
     width: calc(var(--spacing) * 96);
     border-radius: var(--radius-xl);
     padding: calc(var(--spacing) * 4);
-    background-color:  var(--color-blue-300);;
+    background-color:  var(--color-blue-300);
     &:hover {
         transform: translateY(-3px);
     }
