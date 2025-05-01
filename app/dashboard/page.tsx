@@ -1,11 +1,15 @@
+import UserInfo from "@/components/UserInfo";
 
-export default function Directory(){
+import { auth } from "@/auth";
 
+
+export default async function Directory(){
+    const session = await auth();
 
 
     return (
         <>
-        <p> Hello! you have signed in</p>
+        <UserInfo session={session} />
 
         </>
     )
